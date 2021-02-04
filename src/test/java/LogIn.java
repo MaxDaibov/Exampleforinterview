@@ -14,6 +14,7 @@ public class LogIn {
         driver = new ChromeDriver();
         driver.manage().window().maximize();
     }
+
     @AfterMethod
     public void testdown() {
         driver.quit();
@@ -21,7 +22,7 @@ public class LogIn {
 
     @Test
     public void logIn() throws InterruptedException {
-//This test will open a link,LogIn and verify the person is logged in
+        //This test will open a link, LogIn and verify the person is logged in
         driver.get("https://www.bio-rad.com/");
         driver.findElement(By.cssSelector("[id='portalloginlink']")).click();
         driver.findElement(By.cssSelector("[id='okta-signin-username']")).sendKeys("maksimdaiboff@gmail.com");
@@ -31,5 +32,5 @@ public class LogIn {
 
         String loggedIn = driver.findElement(By.cssSelector("[id='portalloginlink']")).getText();
         Assert.assertTrue(loggedIn.contains("Log Out"));
-        }
+    }
 }

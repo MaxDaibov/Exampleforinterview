@@ -1,0 +1,9 @@
+<suite name="Tests">
+    <test name="Main" preserve-order="false">
+        <classes>
+            <class name="LogIn"/>
+            <class name="ContactInformation"/>
+
+        </classes>
+    </test>
+</suite>

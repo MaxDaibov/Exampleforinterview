@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ContactInformation" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-02-04T08:04:53" hostname="DESKTOP-IJVAT1Q" time="25.093">
+  <properties/>
+  <testcase name="contactInformation" classname="ContactInformation" time="25.093"/>
+  <system-out><![CDATA[6
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 40945
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 04, 2021 12:04:52 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>
